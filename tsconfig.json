@@ -22,7 +22,8 @@
     "jsxImportSource": "@emotion/react",
     "noImplicitAny": true,
     "noImplicitThis": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "types": ["node", "react", "react-dom", "@types/react-router-dom"]
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
